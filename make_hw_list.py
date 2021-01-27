@@ -11,7 +11,7 @@ import os
 
 driver = webdriver.Chrome('./chromedriver')
 driver.implicitly_wait(0.5)
-driver.set_window_size(300, 300)
+driver.set_window_size(1600, 1600)
 
 
 time.sleep(0.5)
